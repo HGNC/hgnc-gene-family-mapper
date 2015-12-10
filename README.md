@@ -15,6 +15,7 @@ Javascript dependencies:
 - [jQuery ~2.1.4](https://github.com/jquery/jquery)
 - [Raphael ~2.1.4](https://github.com/DmitryBaranovskiy/raphael)
 - [jquery.raphael.spinner](https://github.com/hunterae/jquery.raphael.spinner)
+- [qTip 1.0.0](https://github.com/taballa/qTip)
 - [iHAG](https://github.com/HGNC/iHAG)
 
 ## Usage

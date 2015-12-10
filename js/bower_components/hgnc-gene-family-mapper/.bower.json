@@ -29,11 +29,11 @@
     "qTip": "1.0.0",
     "iHAG": "git://github.com/HGNC/iHAG.git"
   },
-  "_release": "6045b2c108",
+  "_release": "77e1f7b311",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "6045b2c108a3ebf7001fa2b43620331a842a6158"
+    "commit": "77e1f7b311fc7e5882d59ff3f29aaa9e8c759682"
   },
   "_source": "https://github.com/HGNC/hgnc-gene-family-mapper.git",
   "_target": "*",

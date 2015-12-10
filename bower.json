@@ -1,0 +1,31 @@
+{
+  "name": "hgnc-gene-family-mapper",
+  "main": "hgnc-gene-family-mapper.js",
+  "description": "Draws a map of a HGNC gene family hierarchy for a family",
+  "moduleType": [],
+  "keywords": [
+    "HGNC",
+    "gene family",
+    "iHAG",
+    "acyclic graph"
+  ],
+  "authors": [
+    "KrisGray"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "raphael": "~2.1.4",
+    "jquery.raphael.spinner": "git://github.com/hunterae/jquery.raphael.spinner.git",
+    "qTip": "1.0.0"
+  }
+}

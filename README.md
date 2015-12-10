@@ -19,7 +19,7 @@ Javascript dependencies:
 
 ## Usage
 Simply add a `<div id='YOUR-CHOICE-OF-ID' data-gf-id="GF ID"></div>` anywhere in your `<body>`.
-Replace YOUR-CHOICE-OF-ID for a html ID of your choice and replace GF ID with an HGNC gene family ID. Then at the bottom of the `<body>` add your javascript dependencies:
+Replace YOUR-CHOICE-OF-ID for a HTML ID of your choice and replace GF ID with a HGNC gene family ID. Then at the bottom of the `<body>` add your javascript dependencies:
 ```html
 <script type="text/javascript" src="/js/bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/js/bower_components/raphael/raphael-min.js"></script>

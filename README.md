@@ -29,7 +29,7 @@ Replace YOUR-CHOICE-OF-ID for a HTML ID of your choice and replace GF ID with a 
 <script type="text/javascript" src="/js/bower_components/iHAG/iHAG.js"></script>
 <script type="text/javascript" src="/js/bower_components/hgnc-gene-family-mapper/hgnc-gene-family-mapper.js"></script>
 ```
-Finally call the `drawGFMap('YOUR-CHOICE-OF-ID')` function beneth the script dependencies with a specific javascript object format:
+Finally call the `drawGFMap('YOUR-CHOICE-OF-ID')` function beneth the script dependencies with optional settings:
 ```html
 <script type="text/javascript">
   $(document).ready(function(){

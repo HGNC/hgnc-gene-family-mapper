@@ -1,6 +1,8 @@
 # hgnc-gene-family-mapper
 ## Introduction 
-Draws an interactive horizontal acyclic graph that maps a hierarchy structure of a gene family stored within HGNC [genenames.org](http://www.genenames.org).
+Draws an interactive horizontal acyclic graph that maps a hierarchy structure of a gene family at [genenames.org](http://www.genenames.org). Hovering over a node will create a tooltip with a link to the gene family page at HGNC's [genenames.org](http://www.genenames.org). The nodes can be moved by the user within the map and by click and holding on the node the path through the hierarchy centereed on the selected family will be highlighted.
+
+![map img](https://cloud.githubusercontent.com/assets/9589542/11719725/f72c903a-9f53-11e5-8478-97aa384025f7.png)
 
 **For a live demo visit [http://hgnc.github.io/hgnc-gene-family-mapper](http://hgnc.github.io/hgnc-gene-family-mapper)**
 

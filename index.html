@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draws a map of the HGNC gene family hierarchy for a family">
+    <meta name="keywords" content="HGNC Gene family map">
+    <meta name="author" content="KrisGray">    
+    <title>HGNC gene family mapper</title>
+  </head>
+  <body>
+    <h1>HGNC gene family mapper using iHAG</h1>
+
+    <div id="gf-canvas" data-gf-id="913"></div>
+    
+    <script type="text/javascript" src="js/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bower_components/raphael/raphael-min.js"></script>
+    <script type="text/javascript" src="js/bower_components/jquery.raphael.spinner/jquery.raphael.spinner.js"></script>
+    <script type="text/javascript" src="js/bower_components/qTip/jquery.qtip.min.js"></script>
+    <script type="text/javascript" src="js/bower_components/iHAG/iHAG.js"></script>
+    <script type="text/javascript" src="js/bower_components/hgnc-gene-family-map/hgnc-gene-family-map.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        drawGFMap('gf-canvas');
+      });  
+    </script>
+  </body>
+</html>

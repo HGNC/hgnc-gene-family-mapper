@@ -1,0 +1,28 @@
+{
+  "name": "iHAG",
+  "main": "iHAG.js",
+  "description": "Draws interactive horizontal acyclic graphs",
+  "moduleType": [],
+  "keywords": [
+    "graph",
+    "acyclic",
+    "interactive"
+  ],
+  "authors": [
+    "KrisGray"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "raphael": "~2.1.4"
+  }
+}

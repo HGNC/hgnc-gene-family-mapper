@@ -46,7 +46,7 @@ function drawGFMap(id, settings){
 
   var setID = $('div#'+id).attr('data-gf-id');
   
-  var jqxhr = $.getJSON( "http://www.genenames.org/cgi-bin/ajax/family_connections_ajax/" + setID, function(json) {
+  var jqxhr = $.getJSON( "https://www.genenames.org/cgi-bin/genegroup/connections?id=" + setID, function(json) {
     var levels = drawHAG(json, {
       titleColor             : settings.titleColor,
       titleText              : "Gene family hierarchy map",
@@ -73,7 +73,7 @@ function drawGFMap(id, settings){
     $.each(levels, function(levelNum, level){
       $.each(level, function(famNum, fam){
         var qTipSettings = {
-          content: '<div style="margin-top:5px"><a href="http://www.genenames.org/cgi-bin/genefamilies/set/'+fam.id+'" style="color:#003366;">View gene family at HGNC</a></div>',
+          content: '<div style="margin-top:5px"><a href="https://www.genenames.org/data/genegroup/#!/group/'+fam.id+'" style="color:#003366;">View gene family at HGNC</a></div>',
           show: {when: {event: 'mouseover'}},
           hide: { when: {event: 'mouseout'}, fixed: true, delay: 1000 },
           style: {
